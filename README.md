@@ -10,13 +10,9 @@ Before using this script, make sure to set up the following:
 ## Getting Started
 1. Clone this repository to your local machine.
 2. Navigate to the directory containing this script.
-3. Create a .env file and set your Hubilo API authentication key as follows:
+3. Create a .env file and set your Hubilo API authentication key as follows: ```HUBILO_AUTH=your_token_here```
 
-```HUBILO_AUTH=your_api_key_here```
-
-4. Open a terminal in the script directory and run the following commands:
-
-```npm install```
+4. Open a terminal in the script directory and run the following commands: ```npm install```
 
 This installs the required Node.js packages.
 
@@ -31,10 +27,13 @@ You can run the script with different modes based on your desired action. Replac
 
 ### Example usage:
 ```
-node script.js bookmark
-node script.js rate
-node script.js notes "Your message here"
-node script.js notes-delete
+npm start bookmark
+npm rate
+npm notes "Your message here"
+npm notes loop "Your message here"
+npm notes-delete
+
+npm [mode] v/verbose
 ```
 
 ## Notes Loop Mode
