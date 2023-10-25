@@ -226,9 +226,10 @@ console.log("Running in mode: " + mode);
                     }, 2000);
                 }
             } else {
+                const message = process.argv[2] || "test";
 
-                console.log("No args, adding a note with default message 'test'");
-                await hubiloAPI.addNotes('test');
+                console.log("No args, adding a note with the message '" + message + "'");
+                await hubiloAPI.addNotes(message);
             }
 
             break;
