@@ -57,4 +57,4 @@ In loop mode, notes will be added to users at intervals of 2 seconds.
 
 Feel free to modify and extend this script to suit your specific requirements.
 
-![Uploading image.png…]()
+![image](https://github.com/k-i-o/codemotion-point-farmer/assets/68398653/7caff640-eade-4903-b54f-ce66e824ddaa)
