@@ -2,7 +2,7 @@
 This Node.js script is designed to interact with the Hubilo API to perform various tasks. It allows you to access and manipulate data related to an event on the Hubilo platform. The script can perform actions like bookmarking users, rating sessions, adding notes to users, and deleting notes.
 
 ## DISCLAMER: if you overdo it you will face an IP ban
-
+ 
 ## Prerequisites
 Before using this script, make sure to set up the following:
 

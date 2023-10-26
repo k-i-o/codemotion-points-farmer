@@ -193,7 +193,7 @@ class HubiloAPI {
         }
     }
 }
-
+  
 const hubiloAPI = new HubiloAPI();
 const mode = "notes"; // Replace with the desired mode (bookmark, rate, notes, notes-delete)
 console.log("Running in mode: " + mode);
