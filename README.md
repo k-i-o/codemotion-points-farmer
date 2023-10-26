@@ -35,7 +35,7 @@ npm notes "Your message here"
 npm notes loop "Your message here"
 npm notes-delete
 
-npm [mode] v/verbose
+npm [mode] [v | verbose]
 ```
 
 ## Notes Loop Mode
